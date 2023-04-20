@@ -11,7 +11,7 @@ public class HelloApplication {
         int i = 0;
         if (porcentagem > -100) {
             temp = 1 + porcentagem/100;
-            preco[i] = preco[i].temp;
+            preco[i] = preco[i]*temp;
             return 0;
         } else {
             return -1;
@@ -33,16 +33,17 @@ public class HelloApplication {
             System.out.println("\n");
 
             System.out.println("Informe o preco: ");
-            float prc = Float.parseFloat(entrada.nextLine());
+            float prc = entrada.nextFloat();
             preco[i] = prc;
-
             System.out.println("\n");
 
             System.out.println("\n");
+            System.out.println("Informe a quantidade no estoque: ");
             int qtd = entrada.nextInt();
             qtd_estoque[i] = qtd;
             System.out.println("\n");
 
         }
+
     }
 }
