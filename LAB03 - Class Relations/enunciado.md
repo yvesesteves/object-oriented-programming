@@ -15,5 +15,9 @@ Instruções:
 
 
 # Ex03
+<<<<<<< HEAD
 - Faça um pequeno programa que utiliza o conceito de Agregação
+=======
+- Faça um pequeno programa que utiliza o conceito de Composição
+>>>>>>> 1447c54147afb05e21a5ee65da429078a08eec63
 - O que acontece com o objeto parte ao remover um objeto todo?

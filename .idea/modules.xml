@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/gbc035_t1_yves.yan.iml" filepath="$PROJECT_DIR$/.idea/gbc035_t1_yves.yan.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/git_praticas.iml" filepath="$PROJECT_DIR$/.idea/git_praticas.iml" />
+>>>>>>> 1447c54147afb05e21a5ee65da429078a08eec63
     </modules>
   </component>
 </project>
